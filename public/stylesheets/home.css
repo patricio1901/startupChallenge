@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+    
+    text-decoration: none;
+}
+.logos{
+    display: inline-block;
+    
+}
+.logoech{
+    height: 10%;
+    width: 10%;
+}
+.logoavant{
+    height: 22%;
+    width: 22%;
+    justify-content: center;
+}
+ul li{
+    list-style: none;
+    display: inline;
+}
