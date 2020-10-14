@@ -3,27 +3,139 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Startup Challenge</title>
+    <title>Desafío Startup</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,300;0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="../stylesheets/home.css">
 </head>
 
 <header>
-    <div class="logos">
-        <ul>
-            <li>
-                <img class="logoech" src="../images/echlogo.png" alt="">
-            </li>
-            <li>
-                <img class="logoavant" src="../images/avantlabLogo.jpg" alt="">
-            </li>
-        </ul>
-    </div>
+    <%-include('./header.ejs')%>
 </header>
 <body>
+    <br><br><br>
+    <div class="container">
+        <div class="row">
+          <div id="zoom" class="col etiquetas">
+            <i id="zoom" class="fas fa-handshake icono"></i>
+            <br><br>
+              <h3 id="zoom">Inversión</h3>
+              <p id="zoom">de hasta U$D 100K</p>
+          </div>
+          <div id="zoom" class="col etiquetas">
+            <i id="zoom" class="fas fa-rocket icono"></i>
+            <br><br>
+              <h3 id="zoom">Piloto</h3>
+              <p id="zoom">Posibilidad de realizar piloto en SPONSOR</p>
+          </div>
+          <div id="zoom" class="col etiquetas">
+            <i id="zoom" class="fas fa-users-cog icono"></i>
+            <br><br>
+              <h3 id="zoom">Mentorias</h3>
+              <p id="zoom">Programa de mentorias en AvantLab</p>
+          </div>
+          <div id="zoom" class="col etiquetas">
+            <i id="zoom" class="fas fa-money-bill-wave-alt icono"></i>
+            <br><br>
+              <h3 id="zoom">Premio en efectivo</h3>
+              <p id="zoom">Hasta $500K no reembolsable</p>
+          </div>
+        </div>
+      </div>
+      <br><br><br>
+      
+    <section>
+        <div class="info">
+                <div class="flyer">
+                                <h2>Buscamos Startups con soluciones innovadoras para resolver los desafíos que presenta "SPONSOR".</h2>
+                                <h4>Postulá tu proyecto, potencia tu negocio y se parte de la transformación digital en salud.</h4>
+                                <br>
+                    <div id="buscamos">
+                         <div id="desafios" >
+                                <h3>Desafíos:</h3>
+                                <ul >
+                                    <li >Costos prestacionales en continuo crecimiento</li>
+                                    <li>Longevidad de la población</li>
+                                    <li>Tratamientos crónicos de alto costo</li>
+                                    <li>Alto costo de acceso a la salud de calidad</li>
+                                    <li>Baja calidad prestacional</li>
+                                </ul>
+                         </div>
+                                <div id="imagen">
+                                    <img id="convo" src="../images/convo.jpg" alt="">
+                                </div>
+                    </div>    
+                </div>
+
+                <div class="crono">
+                                <h2>Cronograma:</h2>
+                                <br>
+                                <ul class="listaCrono">
+                                    <li>Fecha de inicio</li>
+                                    <p>22 de Octubre</p>
+                                    
+                                    <li>Cierre de convocatoria</li>
+                                    <p>5 de Diciembre</p>
+                                    
+                                    <li>Anuncio finalistas</li>
+                                    <p>15 de Diciembre</p>
+                                    
+                                    <li>Demo Day</li>
+                                    <p>20 de Diciembre</p>
+                                </ul>
+                </div>
+            
+        </div>
+    </section>
+    <div id="boton">
+        <a class="boton3" href="https://www.f6s.com/avantlabaceleradora/apply">Aplicá al desafío</a>
+    </div>
     
+    <section>
+
+        <div class="contenedor">
+            <div class="desarrollo">
+                <h3>Conocé los premios de la competencia!</h3>
+                <br>
+                    <ul>
+                        
+                        <p><strong>Piloto</strong> - Vas a tener la oportunidad de llevar adelante un piloto de la solución propuesta en "SPONSOR".</p>
+                        
+                        <p><strong>Premio económico</strong> - $500.000 en efectivo no reembolsables para que lleves a cabo el desarrollo del piloto </p>
+
+                        <P><strong>Inversión</strong> - La posibilidad de conseguir una inversión de  hasta 100.000 dólares por parte de AvantLab y/o sus co-inversores.</P>
+
+                        <p><strong>Mentorías</strong> - Vos y tu equipo van a recibir un programa de capacitaciones dictado por <strong> AvantLab</strong></p>
+
+                        <p><strong>Red de contactos</strong> - Vas a poder pitchear en un evento de <strong>ECHAlliance</strong>, el ecosistema de salud que conecta 78 países.</p>
+
+                        <p><strong>Servicios web</strong> - U$D10.000 de crédito en servicios digitales de "SPONSOR"</p>
+                    </ul>   
+            </div>
+            <div class="network">
+                <img src="../images/network.jpg" alt="">
+            </div>
+        </div>
+    </section>
+    <section class="sponsors">
+        <h2>Organizan</h2>
+        <div >
+            <img id="ech" src="../images/echlogo.png" alt="">
+            <img id="avant" src="../images/avantlabLogo.png" alt="">
+        </div>
+        <h2>Sponsors</h2> <!--GRID DE BOOSTRAP 4 COL POR SPONSOR   -->
+              <div class="">
+                <img style="margin: auto; width: 80%;" src="../images/spon.png" alt="">
+              </div>
+    </section>
+    <br><br>
+       
 </body>
 <footer>
-
+    <%-include('./footer.ejs')%>
 </footer>
-
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 </html>

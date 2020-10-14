@@ -1,0 +1,60 @@
+* {margin:0;padding:0;}
+
+#nivel{
+    width: 100%;
+    
+}
+h1{
+    text-align: center;
+    letter-spacing: 4px;
+}
+#lista1 {
+    font-size: larger;
+    text-align: right;
+    margin-right: 35px;
+    margin-top: 58px;
+    }
+.separador {
+    color:gray;
+}
+#lista1 li {
+     display:inline;
+}
+#lista1 a{
+    color: black;
+    text-transform: uppercase;
+}   
+.logoech{
+    height: 120px;
+    width: 120px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    
+}
+.logoavant{
+   width: 220px; 
+   margin-top: 10px;
+}
+#subr{
+    text-decoration: none;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .6s;
+}
+
+#subr:hover, a:focus {
+    background-size: 100% 2px;
+}
+h1{
+    text-shadow: 5px 2px 3px gainsboro;
+}
+#zoom{
+    transition: transform 0.4s;
+}
+#zoom:hover{
+    transform: scale(1.1);
+    
+}
